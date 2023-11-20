@@ -1,7 +1,7 @@
 {
   "name": "dpripa/stripe-local-php",
   "version": "1.0.0",
-  "description": "Redirect Stripe requests for local development in a PHP environment.",
+  "description": "Redirect Stripe requests for local development in a PHP environment",
   "homepage": "https://dpripa.com",
   "license": "GPL-2.0-or-later",
   "authors": [

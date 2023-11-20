@@ -13,8 +13,7 @@ $stripe = new StripeClient('sk_test_...');
 $env = file_exists('.env') ? parse_ini_file('.env') : [];
 
 if (empty($env['ENDPOINT_SECRET'])) {
-    echo 'Error: create and populate the .env file using the .env.example as a reference';
-    exit();
+    exit('Error: create and populate the .env file using the .env.example as a reference');
 }
 
 $endpoint_secret = $env['ENDPOINT_SECRET'];

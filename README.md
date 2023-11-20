@@ -1,5 +1,5 @@
 # Stripe Local PHP
-Redirect Stripe requests for local development in a PHP environment.
+Redirect Stripe requests for local development in a PHP environment
 
 ### Run the following CLI command:
 - Install dependencies:
