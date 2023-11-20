@@ -1,0 +1,6 @@
+vendor
+.idea
+.env
+.DS_Store
+ehthumbs.db
+Thumbs.db

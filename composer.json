@@ -1,0 +1,27 @@
+{
+  "name": "dpripa/stripe-local-php",
+  "version": "1.0.0",
+  "description": "Redirect Stripe requests for local development in a PHP environment.",
+  "homepage": "https://dpripa.com",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Dmitry Pripa",
+      "email": "i@dpripa.com",
+      "homepage": "https://dpripa.com"
+    }
+  ],
+  "config": {
+    "platform-check": false,
+    "optimize-autoloader": true
+  },
+  "require": {
+    "php": "^7.2.0",
+    "stripe/stripe-php": "v13.1.0"
+  },
+  "require-dev": {},
+  "scripts": {
+    "no-dev": "composer install --no-dev",
+    "optimize": "composer dump-autoload --optimize"
+  }
+}
