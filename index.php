@@ -26,7 +26,7 @@ try {
         $payload, $sig_header, $endpoint_secret
     );
 
-} catch(\UnexpectedValueException|SignatureVerificationException $e) {
+} catch(UnexpectedValueException|SignatureVerificationException $e) {
     http_response_code(400);
     exit();
 }
